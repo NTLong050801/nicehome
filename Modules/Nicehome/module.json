@@ -1,0 +1,13 @@
+{
+    "name": "Nicehome",
+    "alias": "nicehome",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Nicehome\\Providers\\NicehomeServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
