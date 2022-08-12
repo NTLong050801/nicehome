@@ -14,4 +14,5 @@
 Route::prefix('nicehome')->group(function() {
     Route::get('/', 'NicehomeController@index');
     Route::get('/design', 'NicehomeController@design');
+    Route::get('/detail', 'NicehomeController@detail');
 });

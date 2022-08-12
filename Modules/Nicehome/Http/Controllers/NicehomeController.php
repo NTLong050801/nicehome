@@ -20,10 +20,15 @@ class NicehomeController extends Controller
     public function design()
     {
         $title = "100+ ý tưởng trang trí phòng đẹp, hiện đại nhất 2022";
-        $link_css = "css/design.css";
-        return view('nicehome::clients.design',compact('title','link_css'));
+      
+        return view('nicehome::clients.design',compact('title'));
     }
-
+    public function detail()
+    {
+        $title = "Chi tiết";
+       
+        return view('nicehome::clients.detail',compact('title'));
+    }
     /**
      * Show the form for creating a new resource.
      * @return Renderable
